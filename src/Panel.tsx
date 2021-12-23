@@ -3,6 +3,7 @@ import { useAddonState, useChannel } from "@storybook/api";
 import { AddonPanel } from "@storybook/components";
 import { ADDON_ID, EVENTS } from "./constants";
 import { PanelContent } from "./components/PanelContent";
+import WhatsNewPanel from './components/WhatsNewPanel';
 
 interface PanelProps {
   active: boolean;
@@ -20,17 +21,11 @@ export const Panel: React.FC<PanelProps> = (props) => {
     [EVENTS.RESULT]: (newResults) => setState(newResults),
   });
 
+  console.log(props);
+
   return (
     <AddonPanel {...props}>
-      <PanelContent
-        results={results}
-        fetchData={() => {
-          emit(EVENTS.REQUEST);
-        }}
-        clearData={() => {
-          emit(EVENTS.CLEAR);
-        }}
-      />
+      <WhatsNewPanel {...props} />
     </AddonPanel>
   );
 };
