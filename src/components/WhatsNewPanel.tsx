@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParameter } from '@storybook/api';
-import ReactMarkdown from 'react-markdown'
+import { Description } from "@storybook/components";
 import { PARAM_KEY } from '../constants';
 
 const WhatsNewPanel = () => {
@@ -8,7 +8,7 @@ const WhatsNewPanel = () => {
   const item = value ? value : '# No Changelog Provided';
   return (
     <div style={{ margin: 15 }}>
-      <ReactMarkdown>{item}</ReactMarkdown>
+      <Description markdown={item} />
     </div>
   );
 };
