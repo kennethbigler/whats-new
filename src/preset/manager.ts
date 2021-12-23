@@ -10,7 +10,7 @@ addons.register(ADDON_ID, () => {
   // Register the tool
   addons.add(TOOL_ID, {
     type: types.TOOL,
-    title: "My addon",
+    title: "What's New?",
     match: ({ viewMode }) => !!(viewMode && viewMode.match(/^(story|docs)$/)),
     render: Tool,
   });
@@ -18,7 +18,7 @@ addons.register(ADDON_ID, () => {
   // Register the panel
   addons.add(PANEL_ID, {
     type: types.PANEL,
-    title: "My addon",
+    title: "What's New?",
     match: ({ viewMode }) => viewMode === "story",
     render: Panel,
   });
@@ -26,7 +26,7 @@ addons.register(ADDON_ID, () => {
   // Register the tab
   addons.add(PANEL_ID, {
     type: types.TAB,
-    title: "My addon",
+    title: "What's New?",
     //👇 Checks the current route for the story
     route: ({ storyId }) => `/myaddon/${storyId}`,
     //👇 Shows the Tab UI element in myaddon view mode

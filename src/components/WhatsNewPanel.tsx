@@ -1,16 +1,15 @@
 import React from 'react';
 import { useParameter } from '@storybook/api';
-import { Title, Description } from '@storybook/addon-docs';
+import ReactMarkdown from 'react-markdown'
 import { PARAM_KEY } from '../constants';
 
-const WhatsNewPanel = (props: any) => {
+const WhatsNewPanel = () => {
   const value = useParameter(PARAM_KEY, null);
-  const item = value ? value : 'No Markdown Defined';
+  const item = value ? value : '# No Changelog Provided';
   return (
-    <>
-      <Title>What&apos;s New?</Title>
-      <Description>{item}</Description>
-    </>
+    <div style={{ margin: 15 }}>
+      <ReactMarkdown>{item}</ReactMarkdown>
+    </div>
   );
 };
 

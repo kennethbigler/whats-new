@@ -1,3 +1,3 @@
-# Successfully loaded the CHANGELOG
+## Successfully loaded the CHANGELOG
 
 Congrats!

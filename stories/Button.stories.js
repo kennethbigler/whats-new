@@ -6,7 +6,7 @@ export default {
   title: "Example/Button",
   component: Button,
   parameters: {
-    myAddonParameter: Changelog,
+    changelog: Changelog,
   },
 };
 
