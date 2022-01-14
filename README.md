@@ -1,4 +1,4 @@
-# storybook-whats-new-addon
+# storybook-addon-whats-new
 
 ## What is it?
 
@@ -9,7 +9,7 @@ This is a Storybook addon intended to let users see what is new with your reposi
 Install the dependency:
 
 ``` sh
-yarn add -D @storybook-whats-new-addon
+yarn add -D @storybook-addon-whats-new
 ```
 
 ### Storybook 5.3 and newer
@@ -19,7 +19,7 @@ Then add it to your `.storybook/main.js`
 ``` js
 module.exports = {
   // other configs here
-  addons: ['storybook-whats-new-addon']
+  addons: ['storybook-addon-whats-new']
 }
 ```
 
@@ -29,7 +29,7 @@ Edit or create a file called `addons.js` in the Storybook config directory (by d
 Add following content to it:
 
 ``` js
-import 'storybook-whats-new-addon/register';
+import 'storybook-addon-whats-new/register';
 ```
 
 ## Getting Started
