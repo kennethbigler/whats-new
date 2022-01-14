@@ -30,7 +30,7 @@ Edit or create a file called `addons.js` in the Storybook config directory (by d
 Add following content to it:
 
 ``` js
-import 'storybook-addon-whats-new/register';
+import 'storybook-addon-whats-new';
 ```
 
 ## Getting Started
