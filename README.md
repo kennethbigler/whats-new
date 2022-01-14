@@ -10,7 +10,7 @@ The recommendation is to link to your `CHANGELOG.md` for automated updates, or y
 Install the dependency:
 
 ``` sh
-yarn add -D @storybook-addon-whats-new
+yarn add -D storybook-addon-whats-new
 ```
 
 ### Storybook 5.3 and newer
