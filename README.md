@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This is a Storybook addon intended to let users see what is new with your repository. The recommendation is to link to your `CHANGELOG.md` for automated updates, or you can custom manage a Markdown file with more tailored updates.
+This is a Storybook addon intended to let users see what's new with your repository. The recommendation is to link to your `CHANGELOG.md` for automated updates, or you can custom manage a Markdown file with more tailored updates.
 
 ## How do I install it?
 
