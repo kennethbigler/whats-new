@@ -19,7 +19,7 @@ Then add it to your `.storybook/main.js`
 ``` js
 module.exports = {
   // other configs here
-  addons: ['storybook-source-code-addon']
+  addons: ['storybook-whats-new-addon']
 }
 ```
 
@@ -29,7 +29,7 @@ Edit or create a file called `addons.js` in the Storybook config directory (by d
 Add following content to it:
 
 ``` js
-import 'storybook-addon-storyout/register';
+import 'storybook-whats-new-addon/register';
 ```
 
 ## Getting Started
