@@ -1,17 +1,19 @@
 {
-  "name": "storybook-addon-kit",
-  "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "name": "storybook-addon-whats-new",
+  "version": "1.0.0",
+  "description": "Storybook addon intended to let users see what is new with your repository",
   "keywords": [
     "storybook-addons",
     "style",
-    "test"
+    "test",
+    "what's new",
+    "changelog"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/storybookjs/whats-new"
   },
-  "author": "winkerVSbecks",
+  "author": "Ken Bigler",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -81,7 +83,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Whats New",
     "supportedFrameworks": [
       "react",
       "vue",
