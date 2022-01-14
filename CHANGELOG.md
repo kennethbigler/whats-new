@@ -1,3 +1,16 @@
+# v1.0.2 (Fri Jan 14 2022)
+
+#### 🐛 Bug Fix
+
+- fix: add npmrc [#9](https://github.com/kennethbigler/whats-new/pull/9) (ken_bigler@intuit.com [@kennethbigler](https://github.com/kennethbigler))
+
+#### Authors: 2
+
+- Ken Bigler (ken_bigler@intuit.com)
+- Kenneth Bigler ([@kennethbigler](https://github.com/kennethbigler))
+
+---
+
 # v1.0.1 (Fri Jan 14 2022)
 
 #### 🐛 Bug Fix
