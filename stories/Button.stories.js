@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "./Button";
-import Changelog from './CHANGELOG.md';
+import WhatsNew from './WHATS_NEW.md';
 
 export default {
   title: "Example/Button",
   component: Button,
   parameters: {
-    changelog: Changelog,
+    whatsNewSource: WhatsNew,
   },
 };
 

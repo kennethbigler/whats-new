@@ -10,7 +10,7 @@ interface PanelProps {
 
 export const Panel: React.FC<PanelProps> = (props) => {
   const value = useParameter(PARAM_KEY, null);
-  const item = value ? value : '# No Changelog Provided';
+  const item = value ? value : '# No Markdown Provided';
 
   return (
     <AddonPanel {...props}>
