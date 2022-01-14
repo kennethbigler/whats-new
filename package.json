@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-whats-new",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Storybook addon intended to let users see what is new with your repository",
   "keywords": [
     "storybook-addons",
