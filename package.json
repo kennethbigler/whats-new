@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/whats-new"
+    "url": "https://github.com/kennethbigler/whats-new"
   },
   "author": "Ken Bigler",
   "license": "MIT",
