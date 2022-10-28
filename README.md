@@ -5,6 +5,9 @@
 This is a Storybook addon intended to let users see what's new with your repository.
 The recommendation is to link to your `CHANGELOG.md` for automated updates, or you can custom manage a Markdown file with more tailored updates.
 
+## Security policy
+[Setup a Security Policy](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+
 ## How do I install it?
 
 Install the dependency:
